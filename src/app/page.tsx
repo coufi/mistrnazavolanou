@@ -19,11 +19,11 @@ export default function Home() {
         siteInfo={siteContent.siteInfo}
       />
       <main className="flex-1">
+        <BeforeAfterSection beforeAfter={siteContent.beforeAfter} />
         <Hero hero={siteContent.hero} siteInfo={siteContent.siteInfo} />
         <Intro intro={siteContent.intro} />
         <Benefits benefits={siteContent.benefits} />
         <Services services={siteContent.services} />
-        <BeforeAfterSection beforeAfter={siteContent.beforeAfter} />
         <Testimonials testimonials={siteContent.testimonials} />
         <Pricing pricing={siteContent.pricing} />
         <Conditions conditions={siteContent.conditions} />

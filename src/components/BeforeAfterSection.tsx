@@ -12,21 +12,25 @@ export function BeforeAfterSection({
   beforeAfter,
 }: BeforeAfterSectionProps) {
   return (
-    <section id={beforeAfter.id} className="px-4 py-16 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-6xl">
-        <SectionHeading
-          eyebrow={beforeAfter.eyebrow}
-          title={beforeAfter.title}
-          description={beforeAfter.description}
-          align="center"
-        />
+    <section id={beforeAfter.id} className="py-0">
+      <BeforeAfterImage
+        beforeSrc={beforeAfter.image.beforeSrc}
+        afterSrc={beforeAfter.image.afterSrc}
+        beforeLabel={beforeAfter.image.beforeLabel}
+        afterLabel={beforeAfter.image.afterLabel}
+        priority
+        sizes="100vw"
+        className="rounded-none border-x-0 border-t-0 bg-white px-0 pt-0 pb-6 shadow-none"
+        viewportClassName="rounded-none"
+        aspectRatioClassName="aspect-[5/4] sm:aspect-[16/9] lg:aspect-[21/9]"
+      />
 
-        <div className="mt-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <BeforeAfterImage
-            beforeSrc={beforeAfter.image.beforeSrc}
-            afterSrc={beforeAfter.image.afterSrc}
-            beforeLabel={beforeAfter.image.beforeLabel}
-            afterLabel={beforeAfter.image.afterLabel}
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+          <SectionHeading
+            eyebrow={beforeAfter.eyebrow}
+            title={beforeAfter.title}
+            description={beforeAfter.description}
           />
 
           <aside className="rounded-[2rem] border border-[color:var(--border)] bg-white p-8 shadow-sm">

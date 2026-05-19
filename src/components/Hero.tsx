@@ -1,7 +1,5 @@
 import { HeroContent, SiteInfo } from "@/data/siteContent";
 
-import { BeforeAfterImage } from "./BeforeAfterImage";
-
 type HeroProps = {
   hero: HeroContent;
   siteInfo: SiteInfo;
@@ -9,8 +7,8 @@ type HeroProps = {
 
 export function Hero({ hero, siteInfo }: HeroProps) {
   return (
-    <section className="px-4 pb-16 pt-10 sm:px-6 sm:pt-16 lg:px-8 lg:pb-20">
-      <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+    <section className="px-4 pb-16 pt-6 sm:px-6 sm:pt-10 lg:px-8 lg:pb-20">
+      <div className="mx-auto max-w-6xl">
         <div>
           <p className="inline-flex rounded-full border border-primary/30 bg-primary/15 px-4 py-1 text-sm font-semibold text-secondary">
             {hero.badge}
@@ -70,16 +68,6 @@ export function Hero({ hero, siteInfo }: HeroProps) {
               <span>{siteInfo.area}</span>
             </div>
           </div>
-        </div>
-
-        <div className="lg:pl-6">
-          <BeforeAfterImage
-            beforeSrc={hero.image.beforeSrc}
-            afterSrc={hero.image.afterSrc}
-            beforeLabel={hero.image.beforeLabel}
-            afterLabel={hero.image.afterLabel}
-            priority
-          />
         </div>
       </div>
     </section>
