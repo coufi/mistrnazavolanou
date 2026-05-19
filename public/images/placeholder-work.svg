@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#FFF7E6"/>
+  <rect x="72" y="72" width="1056" height="756" rx="32" fill="#FFFFFF" stroke="#E6D8BE" stroke-width="12"/>
+  <rect x="152" y="160" width="420" height="240" rx="28" fill="#F4B63F" fill-opacity="0.18"/>
+  <rect x="628" y="160" width="420" height="240" rx="28" fill="#1F2937" fill-opacity="0.08"/>
+  <rect x="152" y="450" width="896" height="88" rx="24" fill="#F7E7C6"/>
+  <rect x="152" y="572" width="896" height="88" rx="24" fill="#F1E0BC"/>
+  <circle cx="250" cy="720" r="44" fill="#3A7D44"/>
+  <circle cx="388" cy="720" r="44" fill="#F4B63F"/>
+  <circle cx="526" cy="720" r="44" fill="#1F2937"/>
+  <text x="600" y="785" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="34">Placeholder práce / demo vizuál</text>
+</svg>

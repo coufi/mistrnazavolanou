@@ -1,0 +1,17 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#E7DBC6"/>
+  <rect y="820" width="1600" height="380" fill="#CAB89F"/>
+  <rect x="120" y="180" width="460" height="640" rx="32" fill="#D4C4AE"/>
+  <rect x="620" y="210" width="860" height="280" rx="28" fill="#D9CBB8"/>
+  <rect x="620" y="530" width="860" height="290" rx="28" fill="#B69162"/>
+  <rect x="650" y="570" width="180" height="210" rx="20" fill="#CEB590"/>
+  <rect x="860" y="570" width="180" height="210" rx="20" fill="#CEB590"/>
+  <rect x="1070" y="570" width="180" height="210" rx="20" fill="#CEB590"/>
+  <rect x="1280" y="570" width="170" height="210" rx="20" fill="#CEB590"/>
+  <rect x="710" y="260" width="640" height="40" rx="20" fill="#BBA58A"/>
+  <circle cx="310" cy="470" r="120" fill="#B39B7D"/>
+  <path d="M420 770C420 700.412 476.412 644 546 644H572C641.588 644 698 700.412 698 770V820H420V770Z" fill="#9A8367"/>
+  <rect x="90" y="70" width="300" height="84" rx="24" fill="#1F2937"/>
+  <text x="240" y="124" text-anchor="middle" fill="#FFF7E6" font-family="Arial, sans-serif" font-size="42" font-weight="700">Před</text>
+  <text x="800" y="1080" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="48">Původní stav kuchyně – demo ilustrace</text>
+</svg>

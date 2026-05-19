@@ -1,0 +1,19 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#FFF5E2"/>
+  <rect y="820" width="1600" height="380" fill="#E6D3B4"/>
+  <rect x="120" y="180" width="460" height="640" rx="32" fill="#F0E5D3"/>
+  <rect x="620" y="210" width="860" height="280" rx="28" fill="#FFFFFF"/>
+  <rect x="620" y="530" width="860" height="290" rx="28" fill="#D19A3A"/>
+  <rect x="650" y="570" width="180" height="210" rx="20" fill="#FFF8EB"/>
+  <rect x="860" y="570" width="180" height="210" rx="20" fill="#FFF8EB"/>
+  <rect x="1070" y="570" width="180" height="210" rx="20" fill="#FFF8EB"/>
+  <rect x="1280" y="570" width="170" height="210" rx="20" fill="#FFF8EB"/>
+  <rect x="710" y="260" width="640" height="40" rx="20" fill="#3A7D44"/>
+  <circle cx="310" cy="470" r="120" fill="#F4B63F"/>
+  <path d="M420 770C420 700.412 476.412 644 546 644H572C641.588 644 698 700.412 698 770V820H420V770Z" fill="#3A7D44"/>
+  <circle cx="1320" cy="320" r="58" fill="#F4B63F"/>
+  <circle cx="1420" cy="320" r="26" fill="#FFE4A8"/>
+  <rect x="1180" y="90" width="300" height="84" rx="24" fill="#1F2937"/>
+  <text x="1330" y="144" text-anchor="middle" fill="#FFF7E6" font-family="Arial, sans-serif" font-size="42" font-weight="700">Po</text>
+  <text x="800" y="1080" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="48">Upravený prostor po dokončení – demo ilustrace</text>
+</svg>
