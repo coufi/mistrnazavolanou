@@ -82,6 +82,9 @@ export type ServicesContent = {
   description: string;
   items: ServiceItem[];
   note: string;
+  expandedTitle: string;
+  expandedItems: string[];
+  contactPrompt: string;
 };
 
 export type BeforeAfterContent = {
@@ -176,7 +179,7 @@ export const siteContent = {
     claim: "Šikovné ruce pro váš domov.",
     description:
       "Demo prezentační web pro zkušeného řemeslníka na zavolání.",
-    area: "Praha a okolí",
+    area: "Blanensko a okolí do 60 km od Letovic",
     availability: "Po–Pá 8:00–18:00, víkendy dle domluvy",
     phoneDisplay: "+420 777 123 456",
     phoneHref: "tel:+420777123456",
@@ -265,15 +268,15 @@ export const siteContent = {
       { title: "Vlastní nářadí a vybavení", icon: "hammer" },
       { title: "Nákup a dovoz materiálu", icon: "van" },
       { title: "Férové jednání bez mlžení", icon: "check" },
-      { title: "Praha a blízké okolí", icon: "chat" },
+      { title: "Domluva napřímo a bez prostředníků", icon: "chat" },
     ],
   } satisfies BenefitsContent,
   services: {
     id: "sluzby",
     eyebrow: "Služby",
-    title: "S čím vám pomůžu doma, v bytě nebo před pronájmem",
+    title: "S čím vám pomůžu doma, v bytě nebo na zahradě",
     description:
-      "Web je připravený jako demo verze, takže rozsah služeb i formulace lze později snadno upravit podle reálné specializace a oprávnění.",
+      "Pomůžu s běžnými opravami, montážemi i drobnými úpravami doma, v bytě i kolem domu. Působím na Blanensku a v okolí do 60 km od Letovic.",
     items: [
       {
         title: "Montáž nábytku",
@@ -325,7 +328,20 @@ export const siteContent = {
       },
     ],
     note:
-      "Poznámka: U elektro prací jde v této demo verzi jen o opatrně formulovanou ukázku. Finální text se upraví podle skutečné kvalifikace a rozsahu živnosti.",
+      "Elektro práce řeším vždy jen v rozsahu, který dává smysl a je domluvený předem.",
+    expandedTitle: "Zobrazit další práce, se kterými běžně pomůžu",
+    expandedItems: [
+      "Montáž polic, garnýží, zrcadel a držáků",
+      "Seřízení dvířek, pantů a pojezdů",
+      "Výměna baterií, sifonů a sprchových doplňků",
+      "Tmelení, silikonování a drobné dokončovací práce",
+      "Sestavení zahradního nebo sklepního vybavení",
+      "Opravy po nájemnících a příprava bytu před předáním",
+      "Drobné dřevěné prvky na míru",
+      "Výměna světel a základních prvků po domluvě",
+    ],
+    contactPrompt:
+      "Nenašli jste přesně to, co řešíte? Ozvěte se a zkusíme najít rozumné řešení podle konkrétní zakázky.",
   } satisfies ServicesContent,
   beforeAfter: {
     id: "pred-a-po",
@@ -360,21 +376,21 @@ export const siteContent = {
         quote:
           "Potřebovala jsem opravit několik drobností po stěhování. Všechno bylo hotové během jedné návštěvy a byt zůstal čistý.",
         name: "Jana K.",
-        location: "Praha",
+        location: "Letovice",
         tag: "Drobné opravy",
       },
       {
         quote:
           "Pomohl s montáží skříní a polic. Oceňuji domluvu, přesnost a to, že si poradil i s nerovnou zdí.",
         name: "Petr M.",
-        location: "Praha-západ",
+        location: "Blansko",
         tag: "Montáž",
       },
       {
         quote:
           "Původně jsme chtěli jen drobnou opravu v koupelně, nakonec jsme domluvili i další úpravy. Vše proběhlo férově a bez stresu.",
         name: "Lenka a Tomáš",
-        location: "Beroun",
+        location: "Boskovice",
         tag: "Rekonstrukce",
       },
     ],

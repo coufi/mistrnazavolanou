@@ -39,6 +39,25 @@ export function Services({ services }: ServicesProps) {
         <p className="mt-8 rounded-[1.5rem] border border-dashed border-[color:var(--border)] bg-cream px-5 py-4 text-sm leading-7 text-muted">
           {services.note}
         </p>
+
+        <details className="mt-6 rounded-[1.5rem] border border-[color:var(--border)] bg-white p-5 shadow-sm">
+          <summary className="cursor-pointer list-none text-base font-semibold text-secondary">
+            {services.expandedTitle}
+          </summary>
+
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+            {services.expandedItems.map((item) => (
+              <li key={item} className="flex items-start gap-3 text-sm leading-7 text-muted">
+                <span className="mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/15 text-secondary">
+                  <Icon name="check" className="h-4 w-4" />
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+
+        <p className="mt-5 text-sm leading-7 text-muted">{services.contactPrompt}</p>
       </div>
     </section>
   );

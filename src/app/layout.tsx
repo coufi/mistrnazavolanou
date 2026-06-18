@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Mistr na zavolání – opravy, montáže a menší rekonstrukce";
+const title = "Mistr na zavolání – opravy a montáže na Blanensku";
 const description =
-  "Opravy, montáže, drobné instalatérské práce, práce se dřevem a menší rekonstrukce bez zbytečných okolků.";
+  "Opravy, montáže, drobné instalatérské práce a menší rekonstrukce na Blanensku a v okolí do 60 km od Letovic.";
 
 export const metadata: Metadata = {
   title,
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     "montáž nábytku",
     "drobné rekonstrukce",
     "řemeslné práce",
+    "Blanensko",
   ],
   openGraph: {
     title,
