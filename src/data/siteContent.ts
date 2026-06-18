@@ -330,9 +330,9 @@ export const siteContent = {
   beforeAfter: {
     id: "pred-a-po",
     eyebrow: "Před a po",
-    title: "Malá změna, velký rozdíl",
+    title: "Ukázka proměny prostoru",
     description:
-      "I drobná oprava nebo dokončení detailů dokáže změnit celý dojem z bytu. Tady bude později ukázka reálných prací. Pro demo používáme ilustrační obrázky.",
+      "Sekce je zatím ilustrační. Jakmile budou k dispozici reálné fotky, nahradí tuto ukázku konkrétní práce před a po.",
     badge: "Demo ukázka",
     checklistTitle: "Co se změnilo",
     checklist: [
