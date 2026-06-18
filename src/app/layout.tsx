@@ -12,20 +12,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Mistr na zavolání – hodinový manžel pro Prahu a okolí";
+const title = "Mistr na zavolání – opravy, montáže a menší rekonstrukce";
 const description =
-  "Hodinový manžel pro opravy, montáže, drobné instalatérské práce, práci se dřevem a menší rekonstrukce v Praze a okolí.";
+  "Opravy, montáže, drobné instalatérské práce, práce se dřevem a menší rekonstrukce bez zbytečných okolků.";
 
 export const metadata: Metadata = {
   title,
   description,
   applicationName: "Mistr na zavolání",
   keywords: [
-    "hodinový manžel",
     "opravy domácnosti",
     "montáž nábytku",
     "drobné rekonstrukce",
-    "Praha a okolí",
+    "řemeslné práce",
   ],
   openGraph: {
     title,

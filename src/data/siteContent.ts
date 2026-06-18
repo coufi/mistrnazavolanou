@@ -175,7 +175,7 @@ export const siteContent = {
     name: "Mistr na zavolání",
     claim: "Šikovné ruce pro váš domov.",
     description:
-      "Demo prezentační web pro zkušeného řemeslníka a hodinového manžela.",
+      "Demo prezentační web pro zkušeného řemeslníka na zavolání.",
     area: "Praha a okolí",
     availability: "Po–Pá 8:00–18:00, víkendy dle domluvy",
     phoneDisplay: "+420 777 123 456",
@@ -204,7 +204,7 @@ export const siteContent = {
   } satisfies NavigationContent,
   hero: {
     badge: "Demo verze s ilustračními daty",
-    title: "Hodinový manžel pro opravy, montáže a rekonstrukce",
+    title: "Opravy, montáže a menší rekonstrukce",
     description:
       "Přijedu, opravím, smontuju, zapojím nebo pomůžu s větší úpravou bytu. Férově, čistě a srozumitelně.",
     actions: [
