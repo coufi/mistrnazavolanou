@@ -5,7 +5,6 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { Intro } from "@/components/Intro";
 import { Pricing } from "@/components/Pricing";
 import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
@@ -21,7 +20,6 @@ export default function Home() {
       <main className="flex-1">
         <BeforeAfterSection beforeAfter={siteContent.beforeAfter} />
         <Hero hero={siteContent.hero} siteInfo={siteContent.siteInfo} />
-        <Intro intro={siteContent.intro} />
         <Benefits benefits={siteContent.benefits} />
         <Services services={siteContent.services} />
         <Testimonials testimonials={siteContent.testimonials} />
