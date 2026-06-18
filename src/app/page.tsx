@@ -7,6 +7,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Pricing } from "@/components/Pricing";
 import { Services } from "@/components/Services";
+import { ScrollToTopButton } from "@/components/ScrollToTopButton";
 import { Testimonials } from "@/components/Testimonials";
 import { siteContent } from "@/data/siteContent";
 
@@ -35,6 +36,7 @@ export default function Home() {
         navigation={siteContent.navigation}
         siteInfo={siteContent.siteInfo}
       />
+      <ScrollToTopButton />
     </>
   );
 }

@@ -188,9 +188,9 @@ export const siteContent = {
     whatsappHref: "https://wa.me/420777123456",
     billingName: "Mistr na zavolání",
     billingPerson: "Jan Novák",
-    ico: "12345678",
+    ico: "23546310",
     legalNote:
-      "Veškeré kontakty, ceny a fakturační údaje na webu jsou ilustrační demo data.",
+      "Některé texty, reference a část údajů na webu jsou zatím pracovní a doladí se po finálním schválení.",
   } satisfies SiteInfo,
   navigation: {
     items: [
@@ -483,7 +483,7 @@ export const siteContent = {
   } satisfies ContactContent,
   footer: {
     note:
-      "Pracovní název, logo, reference, ceník i kontaktní údaje jsou v této verzi placeholdery připravené k nahrazení po schválení klientem.",
+      "Reference, ceník a část textů jsou v této verzi ještě pracovní a po schválení se doplní finální podoba.",
     copyright: `© ${new Date().getFullYear()} Mistr na zavolání`,
   } satisfies FooterContent,
 };
